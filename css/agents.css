@@ -1,0 +1,66 @@
+.agents {
+    background-image: url(../img/agents-background-eb7bdcf6098abe206e45225d09519000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.agents img {
+    width: 100%;
+}
+.agents-texto {
+    padding: 3px 20px;
+    margin: 20px;
+}
+.agents-texto h3 {
+    display: grid;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.agents-texto h4 {
+    font-size: 1.62rem;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.agents-texto p {
+    font-size: 1.22rem;
+    line-height: 1.4;
+    color: white;
+    font-weight: lighter;
+    padding-bottom: 45px;
+}
+.btn5 {
+    padding: 20px 40px;
+    border: 1px solid #FD4556;
+    color: #BD3944;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn5:hover {
+    background-color: rgb(46, 40, 66);
+}
+@media (max-width: 750px){
+    .agents {
+        padding-top: 20px;
+        display: block;
+    }
+}
+@media (max-width: 400px){
+    .agents-texto h3 {
+        font-size: 3rem;
+    }
+} 

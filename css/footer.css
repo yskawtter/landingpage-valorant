@@ -1,0 +1,37 @@
+.rodape {
+    background-color: #000;
+    height: 230px;
+    text-align: center;
+    padding: 60px;
+}
+.rodape-direitos {
+    color: #555;
+    font-size: 1.25rem;
+}
+.rodape-icons{
+    max-width: 95%;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+.termos {
+    padding-top: 40px;
+}
+.termos nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 40px;  
+    transition: .3s;
+}
+.termos nav a:hover {
+    background-color: #555;
+}
+@media (max-width: 1235px) {
+    .rodape {
+        height: 100%;
+    }
+}

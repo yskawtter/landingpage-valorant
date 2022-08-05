@@ -1,0 +1,134 @@
+.noticias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+
+.noticias-texto h3 {
+    font-size: 5.25rem;
+    color: #BD3944;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+.noticias-texto p {
+    text-align: end;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.noticias-texto a {
+    text-decoration: none;
+    color: #BD3944;
+}
+.pag-noticias {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #FD4556;
+    transition: .3s;
+   
+    
+}
+.pag-noticias:hover {
+    background-color: #FD4556;
+    color: white;
+}
+
+.card {
+    width: 450px;
+    height: 480px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+}
+
+.noticia-card-header {
+    width: 100%;
+    
+}
+.noticia-card-body {
+    height: 20px;
+    padding: 15px;
+    text-align: start;
+    justify-content: space-between;
+}
+.card-data {
+    color: #555;
+    font-size: 0.92rem;
+}
+.card-comunidade {
+    padding: 0px 30px;
+    color: #FD4556;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.card-texto {
+    display: block;
+    padding-right: 50px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 1.59rem;
+    text-transform: uppercase;
+    color: #555;
+}
+.btn2 {
+    padding: 10px 20px;
+    border: 1px solid #FD4556;
+    color: #BD3944;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn2:hover {
+    background-color: #FD4556;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .noticias {
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 12px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .noticias {
+        display: block;
+    }
+    .noticias-texto{
+        text-align: start;
+    }
+    .noticias-texto h3 {
+        font-size: 2.13rem;
+    }
+    .noticias-texto p {
+        font-size: 0.7rem;
+        padding: 20px;
+        display: inline;
+    }
+}
+
+@media (max-width: 450px) {
+    .card {
+        width: 320px;
+        height: 450px;
+        margin: 12px;
+    }
+    .btn2 {
+        padding: 5px 10px;
+    }
+}
+@media (min-width: 1080px) {
+    .noticias {
+        gap: 180px;
+    }
+}

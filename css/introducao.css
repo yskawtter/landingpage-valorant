@@ -1,0 +1,62 @@
+.introducao {
+    background-image: url(../img/imagemfundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+.introducao {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.valorant-image {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px 180px;
+}
+.titulo {
+    padding-bottom: 25px;
+}
+.btn-principal {
+    padding: 35px 75px;
+    background: linear-gradient(45deg, #FD4556, #e45460);
+    border: 2px solid #555;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .2s;
+    white-space: nowrap;
+    font-size: 1.243rem;
+    transition:  .4s;
+}
+
+.btn-principal a {
+    text-decoration: none;
+    color: white;
+}
+.btn-principal:hover {
+    background: rgb(46, 40, 66);
+}
+
+@media (max-width: 800px) {
+    body {
+        background-position: center center;
+    }
+    .valorant-image {
+        display: flex;
+        justify-content: center;
+        padding: 25px 10px 90px;
+    }
+    .btn-principal {
+        padding: 20px 45px;
+    }
+}
